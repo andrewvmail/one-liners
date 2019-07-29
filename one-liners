@@ -1,1 +1,1 @@
-comm -3 <(grep -R ".png" . | perl -pe 's/(?<=\d)\/s.*?"/\//g' | sort) <(cat ~/Desktop/master | sort)
+comm -3 <(grep -R ".png" . | perl -pe 's/(?<=\d)\/s.*?"/\//g' | sort) <(cat ~/Desktop/master | sort) # to make sure assets are correct
